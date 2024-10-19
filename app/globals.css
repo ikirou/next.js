@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+}
+
+@layer base {
+    body {
+        @apply bg-slate-900;
+    }
+}
+.container{
+    @apply p-2
+}
+.input_data {
+    @apply  p-4 rounded-sm border-[2px] w-full
+}
+
+.tab_style {
+    @apply  md:border-[1px] border-black w-full md:w-1/2 my-1 py-2 text-[0.8rem] md:text-[1rem]
+}
+ /* them color */
+ .header-topbar {
+    @apply bg-[#2A608E]
+ }
+ .header-main{
+  @apply bg-[#106EBE]
+}
+  /* FINISH them color */
+/* General class Style */
+.center{
+    @apply flex justify-center items-center
+}
+/* header top bar */
+.menu-item {
+    @apply text-nowrap px-2 border-r-[1px] border-gray-100 text-[1.1rem] text-white
+}
+/*FINISH  header top bar */
+
+/* header navigation */
+.border-gray {
+    @apply  hover:text-gray-800  hover:text-[1.2rem]  
+}
+/* ---nav-link */
+.nav-link {
+    @apply  text-[1.2rem]  text-white  font-bold px-2 
+}
+/* FINISH header navigation */
+/* Product page */
+.btn_count {
+    @apply py-1 px-2 md:py-2 md:px-4 border-gray-300 border-[0.5px] rounded-md font-bold text-[1rem]
+}
+/* FINISH Product page */
+/* Cart detail Style */
+.cart-detail {
+    @apply flex flex-row md:flex-col items-center md:gap-2 
+}
+.item-title {
+    @apply text-[1rem] font-bold text-nowrap
+}
+.item-detail{
+   @apply   text-red-700 font-bold text-nowrap
+}
+/* FINISH Cart detail Style */
+
+/*Footer*/
+
+.menu-footer{
+@apply gap-4
+}
+.menu-item-footer {
+    @apply pb-4 text-wrap 
+}
+.menu-link{
+
+}
+
+/*FINISH Footer*/
