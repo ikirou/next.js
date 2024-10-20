@@ -25,7 +25,9 @@
 }
  /* them color */
  .header-topbar {
-    @apply bg-[#2A608E]
+  /* @apply bg-[#2A608E]  */
+  @apply bg-[#FF0000] 
+   
  }
  .header-main{
   @apply bg-[#106EBE]
